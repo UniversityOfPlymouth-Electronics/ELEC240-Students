@@ -122,6 +122,6 @@ void Transmit (char txt[])
 int main()
 {
     while(1) {
-        Transmit("Hello World");
+        Transmit("Hello Paul");
     }
 }
