@@ -64,7 +64,7 @@ void dot (void)
 void dash (void)
 {
     myled = 1; // LED is ON
-    wait_ms(speed*3); // 200 ms
+    wait_ms(speed*3); // 600 ms
     myled = 0; // LED is OFF
     wait_ms(speed); // 200ms sec
 }
@@ -73,9 +73,9 @@ void CharErr(void)                      // FLASH LED QUICKLY
 {
     while(1) {
         myled = 1; // LED is ON
-        wait_ms(50); // 200 ms
+        wait_ms(50); // 50 ms
         myled = 0; // LED is OFF
-        wait_ms(50); // 200ms sec
+        wait_ms(50); // 50ms sec
     }
 }
 
