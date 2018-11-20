@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2016  Intel Corporation. All rights reserved.
+Copyright (C) 2018  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -12,19 +12,18 @@ functions, and any output files from any of the foregoing
 associated documentation or information are expressly subject 
 to the terms and conditions of the Intel Program License 
 Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Intel and sold by Intel or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
 	(rect 224 288 392 304)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "SCLK_IN" (rect 5 0 51 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "SCLK_IN" (rect 5 0 52 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,14 +33,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 168 288 224 304))
 )
 (pin
 	(input)
 	(rect 224 304 392 320)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CS_N" (rect 5 0 34 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "CS_N" (rect 5 0 35 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -51,14 +50,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 168 304 224 320))
 )
 (pin
 	(input)
 	(rect 224 320 392 336)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "MOSI_IN" (rect 5 0 49 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "MOSI_IN" (rect 5 0 51 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -68,14 +67,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 168 320 224 336))
 )
 (pin
 	(input)
 	(rect 208 336 392 352)
-	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "RESET_BUTTON" (rect 5 0 89 12)(font "Arial" ))
+	(text "INPUT" (rect 141 0 170 9)(font "Arial" (font_size 6)))
+	(text "RESET_BUTTON" (rect 5 0 91 10)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -85,14 +84,14 @@ agreement for further details.
 		(line (pt 125 4)(pt 129 8))
 		(line (pt 125 12)(pt 129 8))
 	)
-	(text "VCC" (rect 144 7 164 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 144 7 165 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 160 336 208 352))
 )
 (pin
 	(input)
 	(rect 480 56 648 72)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "50MHz_CLK" (rect 5 0 65 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "50MHz_CLK" (rect 5 0 66 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -102,14 +101,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 424 56 480 72))
 )
 (pin
 	(input)
 	(rect 224 424 392 440)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Switch_0" (rect 5 0 48 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "Switch_0" (rect 5 0 49 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -119,14 +118,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 168 424 224 440))
 )
 (pin
 	(input)
 	(rect 224 440 392 456)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Switch_1" (rect 5 0 48 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "Switch_1" (rect 5 0 49 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -136,14 +135,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 168 440 224 456))
 )
 (pin
 	(input)
 	(rect 224 456 392 472)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Switch_2" (rect 5 0 48 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "Switch_2" (rect 5 0 49 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -153,14 +152,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 168 456 224 472))
 )
 (pin
 	(input)
 	(rect 224 472 392 488)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Switch_3" (rect 5 0 48 12)(font "Arial" ))
+	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
+	(text "Switch_3" (rect 5 0 49 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -170,14 +169,14 @@ agreement for further details.
 		(line (pt 109 4)(pt 113 8))
 		(line (pt 109 12)(pt 113 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 160 472 224 488))
 )
 (pin
 	(output)
 	(rect 1168 288 1344 304)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "MISO" (rect 90 0 117 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "MISO" (rect 90 0 118 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -193,8 +192,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 504 1344 520)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_0" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_0" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -210,8 +209,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 480 1344 496)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_1" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_1" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -227,8 +226,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 456 1344 472)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_2" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_2" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -244,8 +243,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 408 1344 424)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_4" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_4" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -261,8 +260,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 432 1344 448)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_3" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_3" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -278,8 +277,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 384 1344 400)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_5" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_5" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -295,8 +294,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 360 1344 376)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_6" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_6" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -312,8 +311,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 1168 336 1344 352)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "LED_7" (rect 90 0 123 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "LED_7" (rect 90 0 124 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -329,8 +328,8 @@ agreement for further details.
 (pin
 	(output)
 	(rect 936 56 1112 72)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "CLOCK_2Mz" (rect 90 0 152 12)(font "Arial" ))
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "CLOCK_2Mz" (rect 90 0 153 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -344,20 +343,20 @@ agreement for further details.
 )
 (symbol
 	(rect 704 32 840 112)
-	(text "spi_PLL" (rect 5 0 43 12)(font "Arial" ))
-	(text "inst14" (rect 8 64 37 76)(font "Arial" ))
+	(text "spi_PLL" (rect 5 0 45 10)(font "Arial" ))
+	(text "inst14" (rect 8 64 38 74)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "inclk0" (rect 0 0 28 12)(font "Arial" ))
-		(text "inclk0" (rect 21 27 49 39)(font "Arial" ))
+		(text "inclk0" (rect 0 0 29 10)(font "Arial" ))
+		(text "inclk0" (rect 21 27 50 37)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 136 32)
 		(output)
-		(text "c0" (rect 0 0 11 12)(font "Arial" ))
-		(text "c0" (rect 106 27 117 39)(font "Arial" ))
+		(text "c0" (rect 0 0 12 10)(font "Arial" ))
+		(text "c0" (rect 106 27 118 37)(font "Arial" ))
 		(line (pt 136 32)(pt 120 32))
 	)
 	(drawing
@@ -366,34 +365,34 @@ agreement for further details.
 )
 (symbol
 	(rect 696 448 840 544)
-	(text "cdc_synchroniser" (rect 5 0 105 19)(font "Intel Clear" (font_size 8)))
-	(text "inst5" (rect 8 80 30 97)(font "Intel Clear" ))
+	(text "cdc_synchroniser" (rect 5 0 106 14)(font "Intel Clear" (font_size 8)))
+	(text "inst5" (rect 8 80 31 92)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "Dasync" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
-		(text "Dasync" (rect 21 27 63 46)(font "Intel Clear" (font_size 8)))
+		(text "Dasync" (rect 0 0 44 14)(font "Intel Clear" (font_size 8)))
+		(text "Dasync" (rect 21 27 65 41)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "ARESET" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
-		(text "ARESET" (rect 21 43 68 62)(font "Intel Clear" (font_size 8)))
+		(text "ARESET" (rect 0 0 48 14)(font "Intel Clear" (font_size 8)))
+		(text "ARESET" (rect 21 43 69 57)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "CLKsync" (rect 0 0 49 19)(font "Intel Clear" (font_size 8)))
-		(text "CLKsync" (rect 21 59 70 78)(font "Intel Clear" (font_size 8)))
+		(text "CLKsync" (rect 0 0 51 14)(font "Intel Clear" (font_size 8)))
+		(text "CLKsync" (rect 21 59 72 73)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 144 32)
 		(output)
-		(text "Qsync" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
-		(text "Qsync" (rect 86 27 121 46)(font "Intel Clear" (font_size 8)))
+		(text "Qsync" (rect 0 0 37 14)(font "Intel Clear" (font_size 8)))
+		(text "Qsync" (rect 86 27 123 41)(font "Intel Clear" (font_size 8)))
 		(line (pt 144 32)(pt 128 32))
 	)
 	(drawing
@@ -402,34 +401,34 @@ agreement for further details.
 )
 (symbol
 	(rect 696 568 840 664)
-	(text "cdc_synchroniser" (rect 5 0 105 19)(font "Intel Clear" (font_size 8)))
-	(text "inst6" (rect 8 80 30 97)(font "Intel Clear" ))
+	(text "cdc_synchroniser" (rect 5 0 106 14)(font "Intel Clear" (font_size 8)))
+	(text "inst6" (rect 8 80 31 92)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "Dasync" (rect 0 0 42 19)(font "Intel Clear" (font_size 8)))
-		(text "Dasync" (rect 21 27 63 46)(font "Intel Clear" (font_size 8)))
+		(text "Dasync" (rect 0 0 44 14)(font "Intel Clear" (font_size 8)))
+		(text "Dasync" (rect 21 27 65 41)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "ARESET" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
-		(text "ARESET" (rect 21 43 68 62)(font "Intel Clear" (font_size 8)))
+		(text "ARESET" (rect 0 0 48 14)(font "Intel Clear" (font_size 8)))
+		(text "ARESET" (rect 21 43 69 57)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "CLKsync" (rect 0 0 49 19)(font "Intel Clear" (font_size 8)))
-		(text "CLKsync" (rect 21 59 70 78)(font "Intel Clear" (font_size 8)))
+		(text "CLKsync" (rect 0 0 51 14)(font "Intel Clear" (font_size 8)))
+		(text "CLKsync" (rect 21 59 72 73)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 144 32)
 		(output)
-		(text "Qsync" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
-		(text "Qsync" (rect 86 27 121 46)(font "Intel Clear" (font_size 8)))
+		(text "Qsync" (rect 0 0 37 14)(font "Intel Clear" (font_size 8)))
+		(text "Qsync" (rect 86 27 123 41)(font "Intel Clear" (font_size 8)))
 		(line (pt 144 32)(pt 128 32))
 	)
 	(drawing
@@ -438,69 +437,69 @@ agreement for further details.
 )
 (symbol
 	(rect 656 264 872 408)
-	(text "spi_bhm" (rect 5 0 46 12)(font "Arial" ))
-	(text "inst" (rect 8 128 25 140)(font "Arial" ))
+	(text "spi_bhm" (rect 5 0 47 10)(font "Arial" ))
+	(text "inst" (rect 8 128 26 138)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "sclk" (rect 0 0 20 12)(font "Arial" ))
-		(text "sclk" (rect 21 27 41 39)(font "Arial" ))
+		(text "sclk" (rect 0 0 22 10)(font "Arial" ))
+		(text "sclk" (rect 21 27 43 37)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "cs" (rect 0 0 11 12)(font "Arial" ))
-		(text "cs" (rect 21 43 32 55)(font "Arial" ))
+		(text "cs" (rect 0 0 12 10)(font "Arial" ))
+		(text "cs" (rect 21 43 33 53)(font "Arial" ))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "mosi" (rect 0 0 23 12)(font "Arial" ))
-		(text "mosi" (rect 21 59 44 71)(font "Arial" ))
+		(text "mosi" (rect 0 0 24 10)(font "Arial" ))
+		(text "mosi" (rect 21 59 45 69)(font "Arial" ))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "reset" (rect 0 0 24 12)(font "Arial" ))
-		(text "reset" (rect 21 75 45 87)(font "Arial" ))
+		(text "reset" (rect 0 0 25 10)(font "Arial" ))
+		(text "reset" (rect 21 75 46 85)(font "Arial" ))
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
 		(pt 0 96)
 		(input)
-		(text "data_tx[n-1..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "data_tx[n-1..0]" (rect 21 91 92 103)(font "Arial" ))
+		(text "data_tx[n-1..0]" (rect 0 0 73 10)(font "Arial" ))
+		(text "data_tx[n-1..0]" (rect 21 91 94 101)(font "Arial" ))
 		(line (pt 0 96)(pt 16 96)(line_width 3))
 	)
 	(port
 		(pt 216 32)
 		(output)
-		(text "miso" (rect 0 0 23 12)(font "Arial" ))
-		(text "miso" (rect 175 27 198 39)(font "Arial" ))
+		(text "miso" (rect 0 0 24 10)(font "Arial" ))
+		(text "miso" (rect 175 27 195 37)(font "Arial" ))
 		(line (pt 216 32)(pt 200 32))
 	)
 	(port
 		(pt 216 48)
 		(output)
-		(text "data_rx[n-1..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "data_rx[n-1..0]" (rect 134 43 205 55)(font "Arial" ))
+		(text "data_rx[n-1..0]" (rect 0 0 73 10)(font "Arial" ))
+		(text "data_rx[n-1..0]" (rect 134 43 195 53)(font "Arial" ))
 		(line (pt 216 48)(pt 200 48)(line_width 3))
 	)
 	(port
 		(pt 216 64)
 		(output)
-		(text "busyrx" (rect 0 0 34 12)(font "Arial" ))
-		(text "busyrx" (rect 166 59 200 71)(font "Arial" ))
+		(text "busyrx" (rect 0 0 35 10)(font "Arial" ))
+		(text "busyrx" (rect 166 59 195 69)(font "Arial" ))
 		(line (pt 216 64)(pt 200 64))
 	)
 	(port
 		(pt 216 80)
 		(output)
-		(text "busytx" (rect 0 0 34 12)(font "Arial" ))
-		(text "busytx" (rect 166 75 200 87)(font "Arial" ))
+		(text "busytx" (rect 0 0 35 10)(font "Arial" ))
+		(text "busytx" (rect 166 75 195 85)(font "Arial" ))
 		(line (pt 216 80)(pt 200 80))
 	)
 	(parameter
@@ -514,74 +513,74 @@ agreement for further details.
 	(annotation_block (parameter)(rect 904 192 1136 248))
 )
 (connector
-	(text "spi_tx_data[0]" (rect 402 416 471 428)(font "Arial" ))
+	(text "spi_tx_data[0]" (rect 402 416 472 426)(font "Arial" ))
 	(pt 392 432)
 	(pt 456 432)
 )
 (connector
-	(text "spi_tx_data[1]" (rect 402 432 471 444)(font "Arial" ))
+	(text "spi_tx_data[1]" (rect 402 432 472 442)(font "Arial" ))
 	(pt 392 448)
 	(pt 456 448)
 )
 (connector
-	(text "spi_tx_data[2]" (rect 402 448 471 460)(font "Arial" ))
+	(text "spi_tx_data[2]" (rect 402 448 472 458)(font "Arial" ))
 	(pt 392 464)
 	(pt 456 464)
 )
 (connector
-	(text "spi_tx_data[3]" (rect 402 464 471 476)(font "Arial" ))
+	(text "spi_tx_data[3]" (rect 402 464 472 474)(font "Arial" ))
 	(pt 392 480)
 	(pt 456 480)
 )
 (connector
-	(text "spi_tx_data[7..0]" (rect 530 344 607 361)(font "Intel Clear" ))
+	(text "spi_tx_data[7..0]" (rect 530 344 609 356)(font "Intel Clear" ))
 	(pt 520 360)
 	(pt 656 360)
 	(bus)
 )
 (connector
-	(text "rx_data[7..0]" (rect 882 296 941 313)(font "Intel Clear" ))
+	(text "rx_data[7..0]" (rect 882 296 942 308)(font "Intel Clear" ))
 	(pt 1000 312)
 	(pt 872 312)
 	(bus)
 )
 (connector
-	(text "rx_data[1]" (rect 1114 472 1163 484)(font "Arial" ))
+	(text "rx_data[1]" (rect 1114 472 1164 482)(font "Arial" ))
 	(pt 1104 488)
 	(pt 1168 488)
 )
 (connector
-	(text "rx_data[2]" (rect 1114 448 1163 460)(font "Arial" ))
+	(text "rx_data[2]" (rect 1114 448 1164 458)(font "Arial" ))
 	(pt 1104 464)
 	(pt 1168 464)
 )
 (connector
-	(text "rx_data[3]" (rect 1114 424 1163 436)(font "Arial" ))
+	(text "rx_data[3]" (rect 1114 424 1164 434)(font "Arial" ))
 	(pt 1104 440)
 	(pt 1168 440)
 )
 (connector
-	(text "rx_data[5]" (rect 1114 376 1163 388)(font "Arial" ))
+	(text "rx_data[5]" (rect 1114 376 1164 386)(font "Arial" ))
 	(pt 1104 392)
 	(pt 1168 392)
 )
 (connector
-	(text "rx_data[4]" (rect 1114 400 1163 412)(font "Arial" ))
+	(text "rx_data[4]" (rect 1114 400 1164 410)(font "Arial" ))
 	(pt 1104 416)
 	(pt 1168 416)
 )
 (connector
-	(text "rx_data[6]" (rect 1114 352 1163 364)(font "Arial" ))
+	(text "rx_data[6]" (rect 1114 352 1164 362)(font "Arial" ))
 	(pt 1104 368)
 	(pt 1168 368)
 )
 (connector
-	(text "rx_data[7]" (rect 1114 328 1163 340)(font "Arial" ))
+	(text "rx_data[7]" (rect 1114 328 1164 338)(font "Arial" ))
 	(pt 1168 344)
 	(pt 1104 344)
 )
 (connector
-	(text "rx_data[0]" (rect 1114 496 1163 508)(font "Arial" ))
+	(text "rx_data[0]" (rect 1114 496 1164 506)(font "Arial" ))
 	(pt 1168 512)
 	(pt 1104 512)
 )
@@ -590,37 +589,37 @@ agreement for further details.
 	(pt 1168 296)
 )
 (connector
-	(text "sclk" (rect 402 280 420 297)(font "Intel Clear" ))
+	(text "sclk" (rect 402 280 422 292)(font "Intel Clear" ))
 	(pt 392 296)
 	(pt 656 296)
 )
 (connector
-	(text "cs" (rect 402 296 411 313)(font "Intel Clear" ))
+	(text "cs" (rect 402 296 412 308)(font "Intel Clear" ))
 	(pt 392 312)
 	(pt 656 312)
 )
 (connector
-	(text "mosi" (rect 402 312 424 329)(font "Intel Clear" ))
+	(text "mosi" (rect 402 312 425 324)(font "Intel Clear" ))
 	(pt 392 328)
 	(pt 656 328)
 )
 (connector
-	(text "areset" (rect 402 328 431 345)(font "Intel Clear" ))
+	(text "areset" (rect 402 328 432 340)(font "Intel Clear" ))
 	(pt 392 344)
 	(pt 656 344)
 )
 (connector
-	(text "busyrx" (rect 882 312 912 329)(font "Intel Clear" ))
+	(text "busyrx" (rect 882 312 915 324)(font "Intel Clear" ))
 	(pt 872 328)
 	(pt 968 328)
 )
 (connector
-	(text "busytx" (rect 882 328 912 345)(font "Intel Clear" ))
+	(text "busytx" (rect 882 328 915 340)(font "Intel Clear" ))
 	(pt 872 344)
 	(pt 968 344)
 )
 (connector
-	(text "busyrx" (rect 626 464 656 481)(font "Intel Clear" ))
+	(text "busyrx" (rect 626 464 659 476)(font "Intel Clear" ))
 	(pt 616 480)
 	(pt 696 480)
 )
@@ -641,17 +640,17 @@ agreement for further details.
 	(pt 664 512)
 )
 (connector
-	(text "busytx" (rect 626 584 656 601)(font "Intel Clear" ))
+	(text "busytx" (rect 626 584 659 596)(font "Intel Clear" ))
 	(pt 696 600)
 	(pt 616 600)
 )
 (connector
-	(text "busyrx_fpga" (rect 850 464 907 481)(font "Intel Clear" ))
+	(text "busyrx_fpga" (rect 850 464 909 476)(font "Intel Clear" ))
 	(pt 840 480)
 	(pt 912 480)
 )
 (connector
-	(text "busytx_fpga" (rect 850 584 907 601)(font "Intel Clear" ))
+	(text "busytx_fpga" (rect 850 584 909 596)(font "Intel Clear" ))
 	(pt 840 600)
 	(pt 912 600)
 )
@@ -664,36 +663,36 @@ agreement for further details.
 	(pt 696 512)
 )
 (connector
-	(text "areset" (rect 626 480 655 497)(font "Intel Clear" ))
+	(text "areset" (rect 626 480 656 492)(font "Intel Clear" ))
 	(pt 616 496)
 	(pt 680 496)
 )
 (connector
-	(text "CLOCK_50" (rect 626 496 679 513)(font "Intel Clear" ))
+	(text "CLOCK_50" (rect 626 496 680 508)(font "Intel Clear" ))
 	(pt 616 512)
 	(pt 664 512)
 )
 (connector
-	(text "CLOCK_50" (rect 658 48 713 60)(font "Arial" ))
+	(text "CLOCK_50" (rect 658 48 714 58)(font "Arial" ))
 	(pt 648 64)
 	(pt 704 64)
 )
 (connector
-	(text "CLOCK_1" (rect 866 48 915 60)(font "Arial" ))
+	(text "CLOCK_1" (rect 866 48 916 58)(font "Arial" ))
 	(pt 840 64)
 	(pt 936 64)
 )
 (junction (pt 680 496))
 (junction (pt 664 512))
-(text "2MHz Output For Signal Tap sample clock" (rect 896 88 1130 102)(font "Arial" (font_size 8)))
-(text "8 bit SPI" (rect 824 232 875 251)(font "Intel Clear" (font_size 8)))
-(text "This is a Phased Locked Loop (PLL) - an on-chip analogue device that can scale clock signals up and down" (rect 496 136 1116 155)(font "Intel Clear" (font_size 8)))
-(text "1MHz SCLK - MCU Clock Domain" (rect 304 256 498 275)(font "Intel Clear" (font_size 8)))
-(text "Mode 0 SPI Slave Device" (rect 672 232 820 251)(font "Intel Clear" (font_size 8)))
-(text "busyrx_fpga and busytx_fpga are guard signals." (rect 984 632 1266 651)(font "Intel Clear" (font_size 8)))
-(text "Signals with a _fpag suffix are synchronised to the FPGA 50Mhz Clock Domain. All other synchronous signals are updated on the SCLK domain " (rect 984 608 1822 627)(font "Intel Clear" (font_size 8)))
-(text "Switch inputs (for test purposes)" (rect 312 400 501 419)(font "Intel Clear" (font_size 8)))
-(text "busyrx_fpga is HIGH for half an SCLK cycle either side of change to rx_data" (rect 1000 656 1443 675)(font "Intel Clear" (font_size 8)))
-(text "busytx_fpga  is HIGH for half an SCLK cycle either side of read from tx_data" (rect 1000 672 1449 691)(font "Intel Clear" (font_size 8)))
-(text "Your logic FPGA might read data_rx on the falling edge of busytx_fpga and write data_tx on the falling edge of busy_tx" (rect 984 704 1686 723)(font "Intel Clear" (font_size 8)))
-(text "Clock Domain Crossing (CDC) will be covered in ELEC241" (rect 616 688 952 707)(font "Intel Clear" (font_size 8)))
+(text "2MHz Output For Signal Tap sample clock" (rect 896 88 1133 100)(font "Arial" (font_size 8)))
+(text "8 bit SPI" (rect 824 232 875 246)(font "Intel Clear" (font_size 8)))
+(text "This is a Phased Locked Loop (PLL) - an on-chip analogue device that can scale clock signals up and down" (rect 496 136 1117 150)(font "Intel Clear" (font_size 8)))
+(text "1MHz SCLK - MCU Clock Domain" (rect 304 256 499 270)(font "Intel Clear" (font_size 8)))
+(text "Mode 0 SPI Slave Device" (rect 672 232 821 246)(font "Intel Clear" (font_size 8)))
+(text "busyrx_fpga and busytx_fpga are guard signals." (rect 984 632 1267 646)(font "Intel Clear" (font_size 8)))
+(text "Signals with a _fpag suffix are synchronised to the FPGA 50Mhz Clock Domain. All other synchronous signals are updated on the SCLK domain " (rect 984 608 1822 622)(font "Intel Clear" (font_size 8)))
+(text "Switch inputs (for test purposes)" (rect 312 400 503 414)(font "Intel Clear" (font_size 8)))
+(text "busyrx_fpga is HIGH for half an SCLK cycle either side of change to rx_data" (rect 1000 656 1444 670)(font "Intel Clear" (font_size 8)))
+(text "busytx_fpga  is HIGH for half an SCLK cycle either side of read from tx_data" (rect 1000 672 1450 686)(font "Intel Clear" (font_size 8)))
+(text "Your logic FPGA might read data_rx on the falling edge of busytx_fpga and write data_tx on the falling edge of busy_tx" (rect 984 704 1688 718)(font "Intel Clear" (font_size 8)))
+(text "Clock Domain Crossing (CDC) will be covered in ELEC241" (rect 616 688 952 702)(font "Intel Clear" (font_size 8)))
