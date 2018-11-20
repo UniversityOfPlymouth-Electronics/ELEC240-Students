@@ -1,3 +1,4 @@
+//IGNORE ANY RED X next to the following line
 #include "mbed.h"
 
 SPI spi(PA_7, PA_6, PA_5);      // Ordered as: mosi, miso, sclk could use forth parameter ssel
