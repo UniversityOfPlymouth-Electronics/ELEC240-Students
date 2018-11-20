@@ -55,3 +55,6 @@ VHDL/SPIClient/transcript
 **/simulation/
 **/output_files/
 **/*.rpt
+
+#Exclusions
+!/**/mbed/**    
