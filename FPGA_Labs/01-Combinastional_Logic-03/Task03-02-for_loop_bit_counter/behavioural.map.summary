@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Oct 21 11:33:06 2014
+Quartus II 32-bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Revision Name : behavioural
+Top-level Entity Name : behavioural
+Family : Cyclone IV E
+Total logic elements : 92
+    Total combinational functions : 92
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
