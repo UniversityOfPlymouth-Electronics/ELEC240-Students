@@ -48,7 +48,7 @@ int read_switches(void){
     cs = 0;             //Select the device by seting chip select LOW
     sw_val = spi.write(0x00);
     cs = 1 ;            //De-select the device by seting chip select HIGH
-    printf("Valued recieved: %X\n\r", sw_val);
+    printf("Valued received: %X\n\r", sw_val);
     if (sw_val&(1<<0)){ printf("Switch 0 :"); }
     if (sw_val&(1<<1)){ printf("Switch 1 :"); }
     if (sw_val&(1<<2)){ printf("Switch 2 :"); }
