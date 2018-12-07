@@ -18,4 +18,11 @@ A difficulty with Quartus schematics is that you place a component with the last
 
 * Ensure that ModelSim is configured correctly.
   * Tools->Options->EDA Tool Options
+  * Ensure the ModelSim-Altera path is set correctly (see below)
+  * Build the project
+* Open ModelSim from Quartus by selecting Tools->Run Simulation Tool->RTL Simulation
+
+This should open ModelSim (Altera Starter Edition) and run the test bench file TBC
   
+![alt text](https://github.com/UniversityOfPlymouth-Electronics/ELEC240/blob/master/Examples/VHDL/img/EDA_Tool_Options_Windows.PNG "Example Settings for the Windows version of Quartus")
+
