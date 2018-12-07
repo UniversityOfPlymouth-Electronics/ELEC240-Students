@@ -6546,7 +6546,7 @@ Image component sizes
        530        100          0          0          0        504   gpio_api.o
         12          0          0          0          0        124   hal_init_pre.o
        304         48          0          4          0        260   hal_tick_32b.o
-       524        128          4          0        304     671009   main.o
+       524        128          4          0        304     671729   main.o
        206         18          0          0          0        404   mbed_board.o
         22          0          0          0          0        128   mbed_overrides.o
        988         88        132          8        324       1052   mbed_retarget.o
@@ -6573,7 +6573,7 @@ Image component sizes
        196         64          0          4         60        588   us_ticker_32b.o
 
     ----------------------------------------------------------------------
-     12562       1160       1928         44       1472     684101   Object Totals
+     12562       1160       1928         44       1472     684821   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         22          0          7          0          0          0   (incl. Padding)
 
@@ -6736,8 +6736,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     26312       2012       2644         96       1876     678581   Grand Totals
-     26312       2012       2644         96       1876     678581   ELF Image Totals
+     26312       2012       2644         96       1876     679301   Grand Totals
+     26312       2012       2644         96       1876     679301   ELF Image Totals
      26312       2012       2644         96          0          0   ROM Totals
 
 ==============================================================================
