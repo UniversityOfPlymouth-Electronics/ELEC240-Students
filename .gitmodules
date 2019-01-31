@@ -1,0 +1,3 @@
+[submodule "FPGA_Labs/08-CaseStudy-SPI/spi_slave"]
+	path = FPGA_Labs/08-CaseStudy-SPI/spi_slave
+	url = https://github.com/UniversityOfPlymouth-Electronics/spi_slave
