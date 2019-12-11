@@ -5,7 +5,7 @@ void lcd_delayus(unsigned int us)		//blocking delay for LCD, argument is approxi
 	unsigned char i;
 	while(us--)
 	{
-		for(i=0; i<SystemCoreClock/4000000; i++);
+		for(i=0; i<SystemCoreClock/4000000; i++){__NOP();}
 	}
 }
 

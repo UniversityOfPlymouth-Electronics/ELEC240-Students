@@ -1,5 +1,4 @@
 #include <stm32f4xx.h>
-#include "PLL_Config.c"
 #include "ADC.h"
 #include "DAC.h"
 
@@ -8,7 +7,7 @@ unsigned short ADC_DATA;
 int main(void)
 {
 	//PLL_Config();
-	SystemCoreClockUpdate();
+	//SystemCoreClockUpdate();
 	
 	init_ADC();		//config ADC
 	init_DAC();		//config DAC
