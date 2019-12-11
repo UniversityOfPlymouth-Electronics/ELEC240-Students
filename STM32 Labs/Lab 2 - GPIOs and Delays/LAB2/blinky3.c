@@ -4,7 +4,7 @@
 void delay (void)
 {	
 	unsigned int i;		//create variable
-	for (i=0; i<1000000; i++);		//WAIT count to 1 million 
+	for (i=0; i<1000000; i++){__NOP();}		//WAIT count to 1 million 
 }
 
 int main(void)					// MAIN PROGRAM

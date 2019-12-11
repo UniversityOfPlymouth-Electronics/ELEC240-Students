@@ -15,8 +15,8 @@ int main(void)					// MAIN PROGRAM
 	while(1)		//ENTER 'FOREVER' LOOP - THIS LOOP WILL NEVER EXIT
 	{
 		GPIOB->ODR = 1;								//TURN LED ON
-		for (i=0; i<1000000; i++);		//WAIT count to 1 million 
+		for (i=0; i<1000000; i++){__NOP();}		//WAIT count to 1 million 
 		GPIOB->ODR=0;									//TURN L£ED OFF
-		for (i=0; i<1000000; i++);		//WAIT by count to 1 million 
+		for (i=0; i<1000000; i++){__NOP();}		//WAIT by count to 1 million 
 	}
 }
