@@ -1,0 +1,22 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\blinky1.c)(0x59C511D5)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F429xx --C99-o .\objects\blinky1.o --omf_browse .\objects\blinky1.crf --depend .\objects\blinky1.d)
+I (C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5823A048)
+I (C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5823A05A)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B61D2F4)
+I (C:\Program Files\KEIL\ARM\ARMCC\include\stdint.h)(0x57F66926)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5823A05A)
+F (RTE\Device\STM32F429ZITx\startup_stm32f429xx.s)(0x572C681E)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-I"C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "STM32F429xx SETA 1"--list .\listings\startup_stm32f429xx.lst --xref -o .\objects\startup_stm32f429xx.o --depend .\objects\startup_stm32f429xx.d)
+F (RTE\Device\STM32F429ZITx\system_stm32f4xx.c)(0x59AFD7C0)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include"-I"C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F429xx --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5823A048)
+I (C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5823A05A)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h)(0x5B61D2F4)
+I (C:\Program Files\KEIL\ARM\ARMCC\include\stdint.h)(0x57F66926)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h)(0x5B1FA104)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58A636)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B61D2F4)
+I (C:\Program Files\KEIL\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h)(0x5B61D2F4)
+I (C:\Program Files\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5823A05A)

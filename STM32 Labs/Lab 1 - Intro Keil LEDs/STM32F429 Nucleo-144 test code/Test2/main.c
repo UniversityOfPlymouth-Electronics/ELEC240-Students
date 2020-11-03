@@ -3,7 +3,7 @@
 
 void delay (void)
 {
-	int i;																// variable used for counting in delay			
+	volatile int i;																// variable used for counting in delay			
 	for(i=0;i<3000000;i++){__NOP();}  		//count up to big number
 }
 

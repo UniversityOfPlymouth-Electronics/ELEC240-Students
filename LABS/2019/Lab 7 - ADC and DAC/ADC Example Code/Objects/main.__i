@@ -1,0 +1,8 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c
+-fno-rtti -funsigned-char
+-gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality 
+-I./RTE/_Target_1
+-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include
+-IC:/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.14.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F429xx
+-o ./objects/main.o -MD "main.c"

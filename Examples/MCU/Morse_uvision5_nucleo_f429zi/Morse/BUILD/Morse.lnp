@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu=Cortex-M4.fp.sp
 "mbed/TARGET_NUCLEO_F429ZI/TOOLCHAIN_ARM_STD/analogin_api.o"
 "mbed/TARGET_NUCLEO_F429ZI/TOOLCHAIN_ARM_STD/analogout_api.o"
 "mbed/TARGET_NUCLEO_F429ZI/TOOLCHAIN_ARM_STD/analogout_device.o"
