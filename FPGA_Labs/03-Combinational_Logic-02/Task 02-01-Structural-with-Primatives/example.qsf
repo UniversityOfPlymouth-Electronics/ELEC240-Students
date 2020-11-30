@@ -28,7 +28,7 @@ set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name TOP_LEVEL_ENTITY top_level
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "7.1 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:49:42  FEBRUARY 25, 2008"
-set_global_assignment -name LAST_QUARTUS_VERSION 15.0.2
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.1 Lite Edition"
 set_global_assignment -name BDF_FILE top_level.bdf
 set_global_assignment -name VHDL_FILE AND_OR.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top

@@ -44,11 +44,11 @@ begin
 end architecture myLogic;
 
 
-architecture myLogic_v2 of AND_OR is
-
-begin
-	Y <= A1 xor A2;
-end architecture myLogic_v2;
+--architecture myLogic_v2 of AND_OR is
+--
+--begin
+--	Y <= A1 xor A2;
+--end architecture myLogic_v2;
 
 
 
