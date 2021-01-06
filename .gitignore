@@ -55,7 +55,9 @@ VHDL/SPIClient/transcript
 **/simulation/
 **/output_files/
 **/*.rpt
+**/BUILD/
 
 #Exclusions
 !/**/mbed/** 
 **/mbed-os   
+Lectures/Behavioural/demos/.DS_Store
