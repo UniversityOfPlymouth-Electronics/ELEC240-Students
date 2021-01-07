@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Oct 18 11:28:18 2012
+Quartus II Version : 11.0 Build 208 07/03/2011 SP 1 SJ Full Version
+Revision Name : behavioural
+Top-level Entity Name : behavioural
+Family : Cyclone II
+Device : EP2C5Q208C7
+Timing Models : Final
+Total logic elements : 8 / 4,608 ( < 1 % )
+    Total combinational functions : 8 / 4,608 ( < 1 % )
+    Dedicated logic registers : 0 / 4,608 ( 0 % )
+Total registers : 0
+Total pins : 24 / 142 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

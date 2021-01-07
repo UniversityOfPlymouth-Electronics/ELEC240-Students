@@ -7,10 +7,10 @@ entity mux_case is
 	port 
 	(
 		X	   : in std_logic_vector  (15 downto 0);	-- 16 inputs
-		SEL	   : in std_logic_vector  (2  downto 0);     -- 3-bit selector
-		EN     : in std_logic;							-- EN (Active Low, Tristate)
+		SEL	: in std_logic_vector  (2  downto 0);     -- 3-bit selector
+		EN    : in std_logic;							-- EN (Active Low, Tristate)
 		
-		Y      : out std_logic 	
+		Y     : out std_logic 	
 	);
 
 end entity;
