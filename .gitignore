@@ -31,12 +31,10 @@
 *.out
 *.app
 
-
 # Library
 *.qdb
 *.qtl
 *.qpg
-
 
 # Dolphin
 *.directory
@@ -47,6 +45,8 @@
 *.wlf
 VHDL/transcript
 VHDL/SPIClient/transcript
+**/work
+*.opt
 
 # Quartus
 **/db/
@@ -55,6 +55,11 @@ VHDL/SPIClient/transcript
 **/simulation/
 **/output_files/
 **/*.rpt
+**/qsim/
 
 #Exclusions
-!/**/mbed/**    
+!/**/mbed/** 
+**/mbed-os   
+.DS_Store
+**/build/
+

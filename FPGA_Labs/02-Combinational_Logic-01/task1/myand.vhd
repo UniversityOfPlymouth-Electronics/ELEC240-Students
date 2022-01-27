@@ -1,3 +1,6 @@
+-- Nicholas Outram
+-- University of Plymouth
+
 entity myand is
 
 	port
@@ -12,9 +15,6 @@ entity myand is
 end myand;
 
 
-
--- Library Clause(s) (optional)
--- Use Clause(s) (optional)
 
 architecture myand_v1 of myand is
 

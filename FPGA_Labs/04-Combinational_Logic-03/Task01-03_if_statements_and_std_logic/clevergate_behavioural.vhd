@@ -42,7 +42,7 @@ begin
 			elsif (mode = "10") then
 			    P := A xor B; 
 			else
-				P := "0000000000000000";
+			    P := "0000000000000000";
 			end if;
 		end if;
 		
