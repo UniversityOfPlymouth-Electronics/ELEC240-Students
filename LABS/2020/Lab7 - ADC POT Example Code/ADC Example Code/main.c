@@ -17,7 +17,7 @@ int main(void)
 	while(1)
 	{
 		ADC_DATA=read_adc();			//read value from ADC
-		output_dac(ADC_DATA);			//send straight to DAC (DAC pin should replicate ADC pin)
+		output_dac(ADC_DATA<<1);			//send straight to DAC (DAC pin should replicate ADC pin)
 	}
 }
 

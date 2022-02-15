@@ -19,10 +19,6 @@ void init_ADC(void)
 unsigned short read_adc(void)
 {
 	ADC1->CR2|=ADC_CR2_SWSTART;				//start ADC conversion
-	while((ADC1->SR&ADC_SR_EOC)==0)		//wait for ADC conversion complete
-	{
-		__NOP();
-	}
+	while((ADC1->SR&ADC_SR_EOC)==0){__NOP();}	//wait for ADC conversion complete
 	return ADC1->DR;									//return converted value
 }
-
